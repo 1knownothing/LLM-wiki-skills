@@ -52,35 +52,29 @@
 
 ---
 
-## 🔗 完美组合：Obsidian + Web Clipper + CLI
+## 🔗 组合：Obsidian + Web Clipper + CLI
 
 ### 工作流程
 
 ```
-🌐 网页 → Obsidian Web Clipper → 📝 Obsidian 知识库
+🌐 网页 → Obsidian Web Clipper → 📝 Obsidian/raw
                                         ↓
-                                    LLM Wiki Skills
+     🧠Claude code/open code → 🔧LLM Wiki Skills
+                                        ↓
+                                  🔧Obsidian CLI
                                         ↓
                                     📚 知识库
 ```
 
-### 1. 使用 Obsidian Web Clipper 捕获
+### 1.安装 Obsidian，打开 CLI 功能，安装 Obsidian Web Clipper，安装本项目skills
+- Obsidian云端同步方案：
+  https://www.bilibili.com/video/BV1fZCyBYEuT/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=2c231d5b43d9ccf0848317adb47c0383
+  
+### 2. 使用 Obsidian Web Clipper 捕获
 - 直接将文章、研究论文、网页内容保存到 Obsidian
 - 使用模板保持结构一致
 
-### 2. 使用 Obsidian CLI 处理
-```bash
-# 列出知识库中的笔记
-obsidian-cli list
-
-# 搜索新来源
-obsidian-cli search "source:web"
-
-# 获取笔记内容
-obsidian-cli read "My Note"
-```
-
-### 3. 使用 LLM Wiki Skills 摄入
+### 3. 使用 Claude Code或Open Code等工具调用skills
 ```markdown
 用户：处理我在 Obsidian 中保存的新文章
 
@@ -92,36 +86,13 @@ AI：（使用 wiki-ingest 提取并整合）
 | 工具 | 角色 |
 |------|------|
 | **Obsidian** | 界面 + 存储 |
-| **Web Clipper** | 内容捕获 |
+| **Obsidian Web Clipper** | 内容捕获 |
 | **Obsidian CLI** | 程序化访问 |
 | **LLM Wiki Skills** | AI 驱动的处理 |
 
 ---
 
-## 🚀 安装指南
 
-### OpenCode 用户
-
-1. 将 `SKILL.md` 复制到 `~/.config/opencode/skills/wiki-knowledge-base/SKILL.md`
-2. 将 `skills/` 子文件夹中的每个技能复制：
-   - `skills/wiki-init/SKILL.md`
-   - `skills/wiki-ingest/SKILL.md`
-   - `skills/wiki-query/SKILL.md`
-   - `skills/wiki-lint/SKILL.md`
-   - `skills/wiki-maintain/SKILL.md`
-
-### 目录结构
-```
-~/.config/opencode/skills/
-└── wiki-knowledge-base/
-    ├── SKILL.md              # 主技能文件
-    └── skills/
-        ├── wiki-init/SKILL.md
-        ├── wiki-ingest/SKILL.md
-        ├── wiki-query/SKILL.md
-        ├── wiki-lint/SKILL.md
-        └── wiki-maintain/SKILL.md
-```
 
 ### 其他 AI 助手
 将 SKILL.md 格式适配到你助手的技能系统。
@@ -159,4 +130,3 @@ LLM-wiki-skills/
 - 🧠 **第二大脑** — 个人知识管理
 - 🔬 **技术文档** — API 和代码库知识
 
-*由 AI 构建，由 LLM Wiki Skills 驱动*
