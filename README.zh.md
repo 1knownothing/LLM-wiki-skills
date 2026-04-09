@@ -2,7 +2,7 @@
 
 > **为你的 AI 助手赋予持久知识管理能力**
 
-[English](./README.md) | [中文](./README.zh.md) | [🔄 切换语言](./README.md)
+[English](./README.md) | [中文](./README.zh.md) 
 
 ---
 
@@ -158,30 +158,5 @@ LLM-wiki-skills/
 - 💼 **团队知识** — 共享文档
 - 🧠 **第二大脑** — 个人知识管理
 - 🔬 **技术文档** — API 和代码库知识
-
----
-
-## 📖 深入阅读
-
-- [LLM Wiki 模式](https://github.com/karpathy/llm-wiki) — Andrej Karpathy
-- [Transformer Circuits](https://transformer-circuits.pub/) — Anthropic
-- [Obsidian CLI](https://github.com/yoursunny/obsidian-cli)
-
----
-
-## 🤝 贡献
-
-欢迎提交 PR！请确保：
-- 技能遵循 SKILL.md 格式
-- 文档为双语
-- 示例按描述工作
-
----
-
-## 📜 许可证
-
-MIT 许可证 — 免费使用、修改和分发。
-
----
 
 *由 AI 构建，由 LLM Wiki Skills 驱动*
