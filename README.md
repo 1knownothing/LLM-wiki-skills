@@ -52,35 +52,29 @@
 
 ---
 
-## 🔗 Perfect Combo: Obsidian + Web Clipper + CLI
+## 🔗 Combo: Obsidian + Web Clipper + CLI
 
 ### Workflow
 
 ```
-🌐 Web → Obsidian Web Clipper → 📝 Obsidian Vault
+🌐 Web → Obsidian Web Clipper → 📝 Obsidian/raw
                                         ↓
-                                    LLM Wiki Skills
+      🧠Claude code/Open code → 🔧 LLM Wiki Skills
                                         ↓
-                                    📚 Knowledge Base
+                                   🔧Obsidian CLI
+                                        ↓
+                                     📚 Knowledge Base
 ```
 
-### 1. Capture with Obsidian Web Clipper
+### 1. Install Obsidian, enable CLI, install Web Clipper, install this project's skills
+- Obsidian cloud sync guide:
+  https://www.bilibili.com/video/BV1fZCyBYEuT/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=2c231d5b43d9ccf0848317adb47c0383
+  
+### 2. Capture with Obsidian Web Clipper
 - Save articles, research papers, web content directly to Obsidian
 - Use templates for consistent structure
 
-### 2. Process with Obsidian CLI
-```bash
-# List notes in vault
-obsidian-cli list
-
-# Search for new sources
-obsidian-cli search "source:web"
-
-# Get note content
-obsidian-cli read "My Note"
-```
-
-### 3. Ingest with LLM Wiki Skills
+### 3. Use Claude Code or Open Code to call skills
 ```markdown
 User: Process the new article I saved in Obsidian
 
