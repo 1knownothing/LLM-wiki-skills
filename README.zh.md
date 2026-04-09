@@ -90,14 +90,7 @@ AI：（使用 wiki-ingest 提取并整合）
 | **Obsidian CLI** | 程序化访问 |
 | **LLM Wiki Skills** | AI 驱动的处理 |
 
----
 
-
-
-### 其他 AI 助手
-将 SKILL.md 格式适配到你助手的技能系统。
-
----
 
 ## 📁 项目结构
 
