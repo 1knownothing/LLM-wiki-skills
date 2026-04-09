@@ -90,38 +90,6 @@ AI: (uses wiki-ingest to extract and integrate)
 | **Obsidian CLI** | Programmatic access |
 | **LLM Wiki Skills** | AI-powered processing |
 
----
-
-## 🚀 Installation
-
-### For OpenCode Users
-
-1. Copy `SKILL.md` to `~/.config/opencode/skills/wiki-knowledge-base/SKILL.md`
-2. Copy each skill in `skills/` subfolder:
-   - `skills/wiki-init/SKILL.md`
-   - `skills/wiki-ingest/SKILL.md`
-   - `skills/wiki-query/SKILL.md`
-   - `skills/wiki-lint/SKILL.md`
-   - `skills/wiki-maintain/SKILL.md`
-
-### Directory Structure
-```
-~/.config/opencode/skills/
-└── wiki-knowledge-base/
-    ├── SKILL.md              # Master skill
-    └── skills/
-        ├── wiki-init/SKILL.md
-        ├── wiki-ingest/SKILL.md
-        ├── wiki-query/SKILL.md
-        ├── wiki-lint/SKILL.md
-        └── wiki-maintain/SKILL.md
-```
-
-### For Other AI Assistants
-Adapt the SKILL.md format to your agent's skill system.
-
----
-
 ## 📁 Project Structure
 
 ```
