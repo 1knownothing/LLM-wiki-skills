@@ -2,7 +2,7 @@
 
 > **Supercharge your AI agent with persistent knowledge management**
 
-[English](./README.md) | [中文](./README.zh.md) | [🔄 Switch Language](./README.zh.md)
+[English](./README.md) | [中文](./README.zh.md) 
 
 ---
 
